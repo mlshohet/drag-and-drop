@@ -1,19 +1,26 @@
 {
-  "name": "understanding-typescript",
+  "name": "drag-and-drop",
   "version": "1.0.0",
-  "description": "Understanding TypeScript Course Setup",
+  "description": "Drag and Drop with TypeScript",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start": "webpack-dev-server",
+    "build": "webpack"
   },
   "keywords": [
     "typescript",
-    "course"
+    "drag",
+    "drop"
   ],
-  "author": "Maximilian Schwarzmüller",
+  "author": "Mike Shohet",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.5.4",
+    "ts-loader": "^6.2.1",
+    "typescript": "^4.5.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   }
 }
